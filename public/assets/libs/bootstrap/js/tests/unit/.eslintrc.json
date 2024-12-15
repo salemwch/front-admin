@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "../../../.eslintrc.json"
+  ],
+  "env": {
+    "jasmine": true,
+    "browser": true,
+    "jquery": true
+  },
+  "rules": {
+    "unicorn/consistent-function-scoping": "off",
+    "unicorn/no-useless-undefined": "off",
+    "unicorn/prefer-add-event-listener": "off"
+  }
+  
+}
